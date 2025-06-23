@@ -61,20 +61,22 @@ cd news-aggregator
 
 ## 🗒️ 2. Criar o arquivo `.env`
 
+```
 Crie um arquivo chamado `.env` na raiz do projeto com o seguinte conteúdo:
+```
 
 ```env
-POSTGRES_DB=aggregatordb
-POSTGRES_USER=postgres
-POSTGRES_PASSWORD=postgres
-OPENWEATHERMAP_API_KEY=sua_api_key_aqui
-DB_HOST=db
-DB_PORT=5432
+    POSTGRES_DB=aggregatordb
+    POSTGRES_USER=postgres
+    POSTGRES_PASSWORD=postgres
+    OPENWEATHERMAP_API_KEY=sua_api_key_aqui
+    DB_HOST=db
+    DB_PORT=5432
 ```
 
 ## 🐳 3. Subir os containers
 ```
-docker-compose up --build
+    docker-compose up --build
 ```
 ## 🔗 4. Acessar a aplicação
 ```
@@ -82,14 +84,15 @@ docker-compose up --build
 ```
 
 
-##❗ Observações importantes
+## ❗ Observações importantes
+```
     O filtro por data funciona apenas quando há uma palavra-chave ou uma fonte selecionada, seguindo as regras da NewsAPI.
-
-    A API possui limites no plano gratuito (100 requisições por dia).
-
+    A API possui limites no plano gratuito (100 requisições por dia)
     O cache foi configurado para 15 minutos por página.
+```
 
 ## 🚀 Próximas melhorias
+```
     Listagem dinâmica de fontes a partir do endpoint /sources.
 
     Adicionar categorias (technology, sports, etc.).
@@ -99,9 +102,14 @@ docker-compose up --build
     Salvar artigos como favoritos.
 
     Deploy na nuvem (Render, Vercel ou PythonAnywhere).
+```
 
 ## 🤝 Contribuição
+```
 Sinta-se livre para abrir issues, sugerir melhorias ou enviar pull requests.
+```
 
 ## 📜 Licença
+```
 Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para mais informações.
+```
