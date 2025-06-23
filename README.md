@@ -67,7 +67,7 @@ Crie um arquivo chamado `.env` na raiz do projeto com o seguinte conteúdo:
 ```
 
 ```
-env
+
     POSTGRES_DB=aggregatordb
     POSTGRES_USER=postgres
     POSTGRES_PASSWORD=postgres
