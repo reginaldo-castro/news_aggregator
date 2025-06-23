@@ -30,9 +30,10 @@ Um agregador de notícias desenvolvido com **Django** e **NewsAPI**, que permite
 
 1. Clone o repositório:
 
-```bash
-git clone https://github.com/seu-usuario/news-aggregator.git
-cd news-aggregator
+```
+    git clone https://github.com/seu-usuario/news-aggregator.git
+    cd news-aggregator
+```
 
 ## ⚙️ Estrutura do Projeto
 
@@ -65,7 +66,8 @@ cd news-aggregator
 Crie um arquivo chamado `.env` na raiz do projeto com o seguinte conteúdo:
 ```
 
-```env
+```
+env
     POSTGRES_DB=aggregatordb
     POSTGRES_USER=postgres
     POSTGRES_PASSWORD=postgres
