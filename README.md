@@ -96,14 +96,10 @@ Crie um arquivo chamado `.env` na raiz do projeto com o seguinte conteúdo:
 ## 🚀 Próximas melhorias
 ```
     Listagem dinâmica de fontes a partir do endpoint /sources.
-
     Adicionar categorias (technology, sports, etc.).
-
     Implementar autenticação de usuários.
-
     Salvar artigos como favoritos.
 
-    Deploy na nuvem (Render, Vercel ou PythonAnywhere).
 ```
 
 ## 🤝 Contribuição
